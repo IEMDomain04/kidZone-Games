@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
@@ -446,7 +448,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -500,7 +502,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,29 +556,144 @@ video {
   --tw-contain-style:  ;
 }
 
-.m-auto {
-  margin: auto;
+.flex{
+  display: flex;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-3\/4{
+  height: 75%;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.h-screen{
+  height: 100vh;
 }
 
-.text-9xl {
+.h-full{
+  height: 100%;
+}
+
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.space-y-32 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(8rem * var(--tw-space-y-reverse));
+}
+
+.overflow-auto{
+  overflow: auto;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.bg-kid-blue\/75{
+  background-color: rgb(17 0 124 / 0.75);
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
+}
+
+.bg-\[length\:63\%\2c _50\%\]{
+  background-size: 63%, 50%;
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-\[length\:60\%\2c _50\%\]{
+  background-size: 60%, 50%;
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-\[position\:left\2c _right\]{
+  background-position: left, right;
+}
+
+.bg-repeat{
+  background-repeat: repeat;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.bg-repeat-x{
+  background-repeat: repeat-x;
+}
+
+.bg-repeat-y{
+  background-repeat: repeat-y;
+}
+
+.fill-white{
+  fill: #fff;
+}
+
+.stroke-black{
+  stroke: #000;
+}
+
+.stroke-1{
+  stroke-width: 1;
+}
+
+.font-lilita{
+  font-family: Lilita One;
+}
+
+.text-9xl{
   font-size: 8rem;
   line-height: 1;
 }
 
-.text-red-400 {
-  --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#text-stroke,
+#text-stroke-small {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 5px;
+}
+
+#text-stroke-small {
+  -webkit-text-stroke-width: 1px;
 }

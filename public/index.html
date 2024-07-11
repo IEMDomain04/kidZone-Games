@@ -8,23 +8,88 @@
 
     <title>Kidzone Games</title>
     <link rel="icon" type="image/x-icon" href="Assets/site-icon.ico">
-    <link href="../src/styles.css" rel="stylesheet">
+    <link href="../public/css/styles.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="w-full h-screen bg-repeat bg-cover font-lilita"
-        style="background-image: url('/public/assets/dirt-bg.jpg');">
+<body class="w-full h-screen bg-fixed bg-repeat-y bg-cover font-lilita"
+    style="background-image: url('/public/assets/dirt-bg.jpg');">
+
+    <div class="w-full h-screen">
+        <!-- Hero Section Start -->
         <div class="w-full h-3/4 bg-no-repeat bg-[position:left,_right] bg-[length:60%,_50%] bg-contain bg-kid-blue/75 flex justify-center items-center"
             style=" background-image: url(assets/roblox1.png), url(assets/mc1.png);">
-            <div class="text-white text-9xl flex flex-col space-y-32">
-                <h1 class="fill-white stroke-black stroke-1" id="text-stroke">Kidzone-Games</h1>
-                <h1 id="text-stroke">Roblox | Minecraft</h1>
-                <h1 id="text-stroke-small" class="text-xl">For kids who plays Minecraft and Rolox, Hello!!</h1>
+            <div class="text-white text-9xl flex flex-col items-center justify-center space-y-28">
+                <span id="text-stroke">Kidzone-Games</span>
+                <span id="text-stroke">Roblox | Minecraft</span>
+                <span id="text-stroke-small" class="text-xl">For kids who plays Minecraft and Rolox, Hello!!</span>
             </div>
         </div>
+        <!-- Hero Section End -->
 
+        <!-- Roblox Section Start -->
+        <div class="w-full h-3/4 flex flex-col">
+            <div class="w-full h-40 p-14 relative flex flex-row justify-center items-center space-x-56 ">
+                <img class="h-full" src="assets/rbIcons/rbIcon1.png" alt="rbIcon1">
+                <img class="h-full" src="assets/rbIcons/rbIcon2.png" alt="rbIcon1">
+                <img class="h-full" src="assets/rbIcons/rbIcon3.png" alt="rbIcon1">
+            </div>
+            <div class="w-full h-full flex flex-row justify-center items-center bg-white/[.10]">
+                <div class="w-1/2 h-full flex flex-col justify-center items-center space-y-4">
+                    <span id="text-stroke-med" class="text-7xl">Roblox</span>
+                    <img class="w-5/6" src="assets/robloxImage.png" alt="roblox1">
+                </div>
+                <div class="w-1/2 h-full p-10 flex flex-col justify-center text-4xl space-y-5">
+                    <span id="text-stroke-med">Roblox lets you create & share experiences with your friends.</span>
+                    <div id="text-stroke-med" class="text-3xl">
+                        <span>You can play this on your:</span>
+                        <li>
+                            <ul>Computer</ul>
+                            <ul>Phone</ul>
+                            <ul>Tablet</ul>
+                        </li>
+                    </div>
+                    <a class="w-[30%] pr-5 pl-8 py-1 text-2xl text-white bg-zinc-400/50 rounded-md" href="#">See
+                        Links</a>
+                </div>
+            </div>
+        </div>
+        <!-- Roblox Section End -->
+
+        <!-- Minecraft Section Start -->
+        <div class="w-full h-3/4 flex flex-col">
+            <div class="w-full h-40 p-14 relative flex flex-row justify-center items-center space-x-56 ">
+                <img class="h-full" src="assets/mcIcons/mcIcon1.png" alt="mcIcons">
+                <img class="h-full" src="assets/mcIcons/mcIcon2.png" alt="mcIcons">
+                <img class="h-full" src="assets/mcIcons/mcIcon3.png" alt="mcIcons">
+            </div>
+            <div class="w-full h-full flex flex-row justify-center items-center bg-white/[.10]">
+                <div class="w-1/2 h-full p-10 px-16 flex flex-col justify-center text-4xl space-y-5">
+                    <span id="text-stroke-med">Minecraft is a game made from blocks that you can transform into whatever
+                        you can imagine.</span>
+                    <div id="text-stroke-med" class="text-3xl">
+                        <span>You can play this on your:</span>
+                        <li>
+                            <ul>Computer</ul>
+                            <ul>Phone</ul>
+                            <ul>Tablet</ul>
+                        </li>
+                    </div>
+                    <a class="w-[30%] pr-5 pl-8 py-1 text-2xl text-white bg-[rgb(106,106,106)] border-black border-2 rounded-md"
+                        href="#">See
+                        Links</a>
+                </div>
+                <div class="w-1/2 h-full flex flex-col justify-center items-center space-y-4">
+                    <span id="text-stroke-med" class="text-7xl">Minecraft</span>
+                    <img class="w-5/6" src="assets/mcImage.png" alt="roblox1">
+                </div>
+            </div>
+        </div>
+        <!-- Minecraft Section End -->
+
+        <!-- Among the Sleep Section Start -->
         <div class="w-full h-3/4">
         </div>
+        <!-- Among the Sleep Section End -->
     </div>
 </body>
 

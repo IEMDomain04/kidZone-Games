@@ -4,13 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+    height: 100%;
+}
+
 #text-stroke,
-#text-stroke-small {
+#text-stroke-sm,
+#text-stroke-med {
     -webkit-text-fill-color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 5px;
 }
 
-#text-stroke-small {
+#text-stroke-sm {
     -webkit-text-stroke-width: 1px;
+}
+
+#text-stroke-med {
+    -webkit-text-stroke-width: 2px;
 }

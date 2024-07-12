@@ -7,9 +7,9 @@ module.exports = {
                 'kid-blue': 'rgb(17,0,124)',
             },
             fontFamily: {
-                lilita: ['Lilita One']
+                lilita: ['Lilita One'],
+                Jaro: ['Jaro']
             }
-
         },
     },
     plugins: [],

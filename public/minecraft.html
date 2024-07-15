@@ -11,33 +11,93 @@
     <link href="../public/css/styles.css" rel="stylesheet">
 </head>
 
-<body class="w-full h-screen bg-cover bg-contain bg-no-repeat bg-center"
-    style="background-image: url('assets/mc-page-bg.png');">
+<body class="w-full h-screen bg-cover bg-fixed bg-no-repeat bg-center "
+    style="background-image: url('assets/mc-background.jpg');">
 
-    <div id="text-stroke-sm"
-        class="w-full h-screen pt-20 flex flex-col justify-center items-center space-y-5 font-Jaro ">
-        <a class="flex justify-center items-start" href="https://bedrocklauncher.github.io/" target="_blank">
-            <img class="absolute z-0 w-96 h-16" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-l">
-            <span class="relative z-10 mt-3 text-4xl text-white">Windows 10</span>
+    <div class="w-full h-1/4 flex justify-center items-center space-x-0">
+        <a href="index.html">
+            <img class="h-40" src="assets/platform icons/chevron-left-solid.png" alt="chevron-left-solid">
         </a>
-        <a class="flex justify-center items-start" href="https://mcpelife.com/download/minecraft-pe-1-22/"
-            target="_blank">
-            <img class="absolute z-0 w-96 h-16" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-l">
-            <span class="relative z-10 mt-3 text-4xl text-white">Android</span>
-        </a>
-        <a class="flex justify-center items-start" href="https://apps.apple.com/us/app/minecraft/id479516143"
-            target="_blank">
-            <img class="absolute z-0 w-96 h-16" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-l">
-            <span class="relative z-10 mt-3 text-4xl text-white">IOS</span>
-        </a>
-        <div>
-            <a class="flex justify-center items-start mt-20" href="index.html">
-                <img class="absolute z-0 w-44 h-12" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-l">
-                <span class="relative z-10 mt-[0.35rem] text-3xl text-white">Back</span>
+        <span id="text-stroke-sm" class="font-Jaro text-9xl">DOWNLOAD LINKS</span>
+    </div>
+
+    <!-- Windows 10 Donload Section Start -->
+    <div class="w-full h-1/2 bg-zinc-50/25 grid grid-cols-2 justify-items-center items-center">
+        <img class="h-[110%]" src="assets/platform icons/win10.png" alt="win10">
+        <div class="w-full h-full">
+            <!-- Java Section Start -->
+            <div id="text-stroke-sm" class="w-full h-1/2 flex flex-col justify-center items-center space-y-2 font-Jaro">
+                <span class="text-8xl">Java</span>
+                <a class="bg-contain bg-center bg-no-repeat p-5 text-xl cursor-pointer"
+                    style="background-image: url('assets/mc_buttons/mc-button-s.png');" href="https://skmedix.pl/"
+                    target="_blank">SK Launcher</a>
+            </div>
+            <!-- Java Section End -->
+            <!-- Bedrock Section Start -->
+            <div id="text-stroke-sm" class="w-full h-1/2 flex flex-col justify-center items-center space-y-2 font-Jaro">
+                <span class="text-8xl">Bedrock</span>
+                <div class="grid grid-cols-2 gap-7">
+                    <a class="bg-contain bg-center bg-no-repeat p-2 text-xl cursor-pointer"
+                        style="background-image: url('assets/mc_buttons/mc-button-s.png');"
+                        href="https://bedrocklauncher.github.io/" target="_blank">Bedrock
+                        Launcher</a>
+
+                    <a class="bg-contain bg-center bg-no-repeat p-2 text-xl cursor-pointer flex justify-center items-center"
+                        style="background-image: url('assets/mc_buttons/mc-button-s.png');"
+                        href="https://www.xbox.com/en-PH/games/store/minecraft-java-bedrock-edition-for-pc/9nxp44l49shj?ocid=storeforweb"
+                        target="_blank">
+                        Microsoft Store
+                    </a>
+                </div>
+            </div>
+            <!-- Bedrock Section End -->
+        </div>
+    </div>
+    <!-- Windows 10 Download Section End -->
+
+    <!-- Android Section Start -->
+    <div class="w-full h-1/2 bg-zinc-50/[.10] grid grid-cols-2 justify-items-center items-center">
+        <img class="h-1/2" src="assets/platform icons/android.png" alt="android">
+        <div class="w-full h-full font-Jaro flex flex-col justify-center items-center space-y-4 ">
+            <div id="text-stroke-sm" class="flex flex-col space-y-4">
+                <a class="flex justify-center items-center" href="https://mcpelife.com/download/minecraft-pe-1-22/">
+                    <img class="h-12 absolute" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-s">
+                    <span class="relative text-3xl">1.22</span>
+                </a>
+                <a class="flex justify-center items-center" href="https://mcpelife.com/download/minecraft-pe-1-21/">
+                    <img class="h-12 absolute" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-s">
+                    <span class="relative text-3xl">1.21</span>
+                </a>
+                <a class="flex justify-center items-center" href="https://mcpelife.com/download/minecraft-pe-1-20/">
+                    <img class="h-12 absolute" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-s">
+                    <span class="relative text-3xl">1.20</span>
+                </a>
+                <a class="flex justify-center items-center" href="https://mcpelife.com/download/minecraft-pe-1-19/">
+                    <img class="h-12 absolute" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-s">
+                    <span class="relative text-3xl">1.19</span>
+                </a>
+            </div>
+            <a class="flex justify-center items-center" href="https://mcpelife.com/download/">
+                <span class="relative text-sm text-sky-200 font-sans underline">Other Version</span>
             </a>
         </div>
     </div>
+    <!-- Android Section End -->
 
+    <!-- IOS Section Start -->
+    <div class="w-full h-1/2 bg-zinc-50/25 grid grid-cols-2 justify-items-center items-center">
+        <img class="h-1/2" src="assets/platform icons/ios.png" alt="android">
+        <div class="w-full h-full font-Jaro flex flex-col justify-center items-center space-y-4 ">
+            <div id="text-stroke-sm" class="w-full h-1/2 flex flex-col justify-center items-center space-y-4 font-Jaro">
+                <span class="text-8xl">IOS</span>
+                <a class="flex justify-center items-center" href="https://apps.apple.com/us/app/minecraft/id479516143/">
+                    <img class="h-12 absolute" src="assets/mc_buttons/mc-button-s.png" alt="mc-button-s">
+                    <span class="relative text-3xl">Apple Store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- IOS Section End -->
 </body>
 
 </html>

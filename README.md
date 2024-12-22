@@ -1,3 +1,6 @@
+# Kid Zone Games
+This is just a website for kids who wants to play Minecraft and Roblox.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -1,5 +1,4 @@
-# Kid Zone Games
-This is just a website for kids who wants to play Minecraft and Roblox.
+# Project simple
 
 # React + Vite
 
